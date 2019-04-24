@@ -1,31 +1,36 @@
 {
   "name": "hello-country-react",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "expo": "^32.0.6",
-    "react": "^16.8.6",
-    "react-scripts": "^2.1.8",
-    "react-dom": "^16.8.6",
-    "react-responsive": "4.0.4",
-    "react-test-renderer": "^16.2.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "function-bind": "^1.1.1"
+    "function-bind": "^1.1.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-responsive": "4.0.4",
+    "react-scripts": "1.1.0",
+    "react-test-renderer": "^16.2.0",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^24.7.1",
+    "babel-loader": "^8.0.5",
+    "jest": "^24.7.1",
+    "regenerator-runtime": "^0.11.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "jest": "jest",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  }
 }

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country Change Button  1`] = `
+<div>
+  <h1>
+    Hello, 
+    America
+  </h1>
+  <div />
+  <div>
+    <button
+      className="changeCountry"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#555555",
+          "border": "none",
+          "color": "#ffffff",
+          "display": "inlineBlock",
+          "fontSize": "17px",
+          "padding": "15px 32px",
+          "textAlign": "center",
+          "textDecoration": "none",
+        }
+      }
+    >
+      Switch  Country
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Testing entire app 1`] = `
+<div>
+  <h1>
+    Hello, 
+    America
+  </h1>
+  <div />
+  <div>
+    <button
+      className="changeCountry"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#555555",
+          "border": "none",
+          "color": "#ffffff",
+          "display": "inlineBlock",
+          "fontSize": "17px",
+          "padding": "15px 32px",
+          "textAlign": "center",
+          "textDecoration": "none",
+        }
+      }
+    >
+      Switch  Country
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Testing entire app 2`] = `
+<div>
+  <h1>
+    Hello, 
+    America
+  </h1>
+  <div />
+  <div>
+    <button
+      className="changeCountry"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#555555",
+          "border": "none",
+          "color": "#ffffff",
+          "display": "inlineBlock",
+          "fontSize": "17px",
+          "padding": "15px 32px",
+          "textAlign": "center",
+          "textDecoration": "none",
+        }
+      }
+    >
+      Switch  Country
+    </button>
+  </div>
+</div>
+`;
